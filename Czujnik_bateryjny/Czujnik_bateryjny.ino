@@ -35,7 +35,6 @@ void setup() {
   SuplaDevice.setSupla3rdPartyCACert(supla3rdCACert);
   SuplaDevice.addFlags(SUPLA_DEVICE_FLAG_SLEEP_MODE_ENABLED);
   SuplaDevice.setName(devName);
-  SuplaDevice.setSwVersion(SOFT_VERSION);
   SuplaDevice.begin();
 }
 
